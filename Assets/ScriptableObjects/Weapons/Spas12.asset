@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662b3eda3b4564a4eba21716d4aee93d, type: 3}
+  m_Name: Spas12
+  m_EditorClassIdentifier: 
+  weaponName: Spas12
+  shootType: 0
+  projectileProperty: 0
+  bulletsPerShoot: 5
+  damageMultiplier: 20
+  fireRateMultiplier: 2.5
+  magazineCapacity: 7
+  canShootOnReload: 1
+  range: 30
+  recoil: 5
+  weaponAimSprite: {fileID: 21300000, guid: dfbf8922da6dd6a47bf0f30362e9c35d, type: 3}
+  offsetBarrel: {x: 1.146, y: -0.026, z: 0}
+  bulletImage: 0

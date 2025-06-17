@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662b3eda3b4564a4eba21716d4aee93d, type: 3}
+  m_Name: Stinger
+  m_EditorClassIdentifier: 
+  weaponName: Stinger
+  shootType: 1
+  projectileProperty: 3
+  bulletsPerShoot: 1
+  damageMultiplier: 150
+  fireRateMultiplier: 1.1
+  magazineCapacity: 4
+  canShootOnReload: 0
+  range: 30
+  recoil: 0
+  weaponAimSprite: {fileID: 21300000, guid: 2c9d7fab45389714a8d6ea0dd791e42a, type: 3}
+  offsetBarrel: {x: 1.253, y: 0.063, z: 0}
+  bulletImage: 3

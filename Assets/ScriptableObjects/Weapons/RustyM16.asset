@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662b3eda3b4564a4eba21716d4aee93d, type: 3}
+  m_Name: RustyM16
+  m_EditorClassIdentifier: 
+  weaponName: RustyM16
+  shootPrefab: {fileID: 8052791035031279488, guid: 00d7a23f027258b4e9fc667f8fd8317d, type: 3}
+  projectileProperty: 0
+  bulletsPerShoot: 1
+  damageMultiplier: 18
+  fireRateMultiplier: 9
+  magazineCapacity: 20
+  canShootOnReload: 0
+  range: 50
+  recoil: 5
+  weaponAimSprite: {fileID: 21300000, guid: 72504b4d453186a4a9501ca0e5e06e58, type: 3}
+  offsetBarrel: {x: 1.592, y: 0.036, z: 0}
+  bulletImage: 0
