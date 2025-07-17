@@ -4,11 +4,11 @@ namespace Entities
 {
     public class EntityData : MonoBehaviour
     {
-        protected float damage;
-        protected float attackSpeed;
-        protected float defense;
+        [SerializeField] protected float damage;
+        [SerializeField] protected float attackSpeed;
+        [SerializeField] protected float defense;
         
-        protected float speed;
-        protected float jumpForce;
+        [SerializeField] protected float speed;
+        [SerializeField] protected float jumpForce;
     }
 }

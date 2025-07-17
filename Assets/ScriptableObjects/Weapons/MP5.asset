@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: MP5
   m_EditorClassIdentifier: 
   weaponName: MP5
-  shootPrefab: {fileID: 8052791035031279488, guid: 00d7a23f027258b4e9fc667f8fd8317d, type: 3}
-  projectileProperty: 0
-  bulletsPerShoot: 1
+  category: 2
+  bulletPrefab: {fileID: 4678427752856185961, guid: 4b255de34fdbdce4a9f15f7ab48d0378, type: 3}
   damageMultiplier: 13
   fireRateMultiplier: 13
-  magazineCapacity: 30
-  canShootOnReload: 0
+  maxBullets: 30
+  bulletsPerShoot: 1
+  hasMagazine: 1
+  ignoreRecoilAnimation: 0
   range: 70
   recoil: 2
   weaponAimSprite: {fileID: 21300000, guid: ef2dd7d16c23f4a4e914c92fc4e35891, type: 3}
   offsetBarrel: {x: 0.879, y: 0.013, z: 0}
-  bulletImage: 0

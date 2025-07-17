@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: RPG7
   m_EditorClassIdentifier: 
   weaponName: RPG7
-  shootType: 1
-  projectileProperty: 3
-  bulletsPerShoot: 1
-  damageMultiplier: 100
+  category: 6
+  bulletPrefab: {fileID: 2220176494352736753, guid: d10655de6b45f58489f81b11e77966f6, type: 3}
+  damageMultiplier: 90
   fireRateMultiplier: 1
-  magazineCapacity: 1
-  canShootOnReload: 0
-  range: 30
+  maxBullets: 1
+  bulletsPerShoot: 1
+  hasMagazine: 0
+  ignoreRecoilAnimation: 0
+  range: 70
   recoil: 0
   weaponAimSprite: {fileID: 21300000, guid: 0b445933d5ca39445ba97f327e57a017, type: 3}
   offsetBarrel: {x: 0.622, y: 0.058, z: 0}
-  bulletImage: 4

@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: BerrettM82
   m_EditorClassIdentifier: 
   weaponName: BerrettM82
-  shootPrefab: {fileID: 8052791035031279488, guid: 00d7a23f027258b4e9fc667f8fd8317d, type: 3}
-  projectileProperty: 0
-  bulletsPerShoot: 1
+  category: 5
+  bulletPrefab: {fileID: 7768335701963789711, guid: 6d4c5ee7dc308d64e89ea5d742d645aa, type: 3}
   damageMultiplier: 160
-  fireRateMultiplier: 5
-  magazineCapacity: 10
-  canShootOnReload: 0
+  fireRateMultiplier: 1
+  maxBullets: 10
+  bulletsPerShoot: 1
+  hasMagazine: 1
+  ignoreRecoilAnimation: 0
   range: 70
-  recoil: 5
+  recoil: 2
   weaponAimSprite: {fileID: 21300000, guid: d3770395f5b08d04391d0b38aceb1838, type: 3}
   offsetBarrel: {x: 2.045, y: 0.03, z: 0}
-  bulletImage: 0

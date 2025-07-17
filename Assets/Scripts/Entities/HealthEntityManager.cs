@@ -7,6 +7,7 @@ namespace Entities
     public class HealthEntityManager : MonoBehaviour, IHealth
     {
         public event Action OnEntityDeath;
+        public event Action OnHealthChanged;
 
         [SerializeField] private int maxHealth = 100;
         private float currentHealth;
@@ -22,6 +23,8 @@ namespace Entities
         {
             currentHealth -= damage;
             currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            
+            OnHealthChanged?.Invoke();
     
             if (currentHealth <= 0)
                 Die();
@@ -31,6 +34,8 @@ namespace Entities
         {
             currentHealth += heal;
             currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            
+            OnHealthChanged?.Invoke();
         }
 
         public void Die()
