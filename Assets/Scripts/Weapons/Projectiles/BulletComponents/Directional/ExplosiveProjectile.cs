@@ -1,6 +1,5 @@
 using Effects;
 using UnityEngine;
-using Weapons.Projectiles.Base;
 using Weapons.Projectiles.BulletComponents.Base;
 
 namespace Weapons.Projectiles.BulletComponents.Directional

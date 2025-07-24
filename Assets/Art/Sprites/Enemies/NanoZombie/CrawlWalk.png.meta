@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: d20782dfeb2142a42aed10d56f590a48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1013133722385160832
+    second: CrawlerWalk_0
+  - first:
+      213: 5278668084038462897
+    second: CrawlerWalk_1
+  - first:
+      213: -5645224716516618765
+    second: CrawlerWalk_2
+  - first:
+      213: -5982104454694607776
+    second: CrawlerWalk_3
+  - first:
+      213: -8645925168757503262
+    second: CrawlerWalk_4
+  - first:
+      213: 7205446321597060130
+    second: CrawlerWalk_5
+  - first:
+      213: -4598373874278098791
+    second: CrawlerWalk_6
+  - first:
+      213: 5714513076946088542
+    second: CrawlerWalk_7
+  - first:
+      213: 2835389278386636671
+    second: CrawlerWalk_8
+  - first:
+      213: -2874378636047466391
+    second: CrawlerWalk_9
+  - first:
+      213: 6137158530115636183
+    second: CrawlerWalk_10
+  - first:
+      213: 6472136910537118029
+    second: CrawlerWalk_11
+  - first:
+      213: -1554157749687923582
+    second: CrawlerWalk_12
+  - first:
+      213: 8270223779772596712
+    second: CrawlerWalk_13
+  - first:
+      213: -7884507371108878288
+    second: CrawlerWalk_14
+  - first:
+      213: 3622148521509925292
+    second: CrawlerWalk_15
+  - first:
+      213: -8382514912191065471
+    second: CrawlerWalk_16
+  - first:
+      213: -7911467133070764368
+    second: CrawlerWalk_17
+  - first:
+      213: -5005286363783583554
+    second: CrawlerWalk_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrawlerWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 266
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085634f4f30a0f1f0800000000000000
+      internalID: -1013133722385160832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 944
+        width: 264
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bded44a7a8914940800000000000000
+      internalID: 5278668084038462897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 943
+        width: 256
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd85cea70228a1b0800000000000000
+      internalID: -5645224716516618765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 263
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06465a861bb4bfca0800000000000000
+      internalID: -5982104454694607776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 856
+        width: 273
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea8999fdd0830880800000000000000
+      internalID: -8645925168757503262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_5
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 856
+        width: 273
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22410fed043eef360800000000000000
+      internalID: 7205446321597060130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 266
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9989737135b4f20c0800000000000000
+      internalID: -4598373874278098791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 768
+        width: 258
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5232bfdd570e4f40800000000000000
+      internalID: 5714513076946088542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 766
+        width: 253
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77cf22b683595720800000000000000
+      internalID: 2835389278386636671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 250
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9604b601cd72c18d0800000000000000
+      internalID: -2874378636047466391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 678
+        width: 243
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db0dc5ca219b2550800000000000000
+      internalID: 6137158530115636183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 675
+        width: 233
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d415242ba36a1d950800000000000000
+      internalID: 6472136910537118029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 230
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c4eecc2c58e6ae0800000000000000
+      internalID: -1554157749687923582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 594
+        width: 254
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1855ec5bcb5c270800000000000000
+      internalID: 8270223779772596712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 592
+        width: 273
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0383b14e15a949290800000000000000
+      internalID: -7884507371108878288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 278
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca13e4ca3e4744230800000000000000
+      internalID: 3622148521509925292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 507
+        width: 280
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182df6e89135bab80800000000000000
+      internalID: -8382514912191065471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_17
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 510
+        width: 275
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b693292f82d43290800000000000000
+      internalID: -7911467133070764368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrawlerWalk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 272
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8a29f3296a98ab0800000000000000
+      internalID: -5005286363783583554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CrawlerWalk_0: -1013133722385160832
+      CrawlerWalk_1: 5278668084038462897
+      CrawlerWalk_10: 6137158530115636183
+      CrawlerWalk_11: 6472136910537118029
+      CrawlerWalk_12: -1554157749687923582
+      CrawlerWalk_13: 8270223779772596712
+      CrawlerWalk_14: -7884507371108878288
+      CrawlerWalk_15: 3622148521509925292
+      CrawlerWalk_16: -8382514912191065471
+      CrawlerWalk_17: -7911467133070764368
+      CrawlerWalk_18: -5005286363783583554
+      CrawlerWalk_2: -5645224716516618765
+      CrawlerWalk_3: -5982104454694607776
+      CrawlerWalk_4: -8645925168757503262
+      CrawlerWalk_5: 7205446321597060130
+      CrawlerWalk_6: -4598373874278098791
+      CrawlerWalk_7: 5714513076946088542
+      CrawlerWalk_8: 2835389278386636671
+      CrawlerWalk_9: -2874378636047466391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

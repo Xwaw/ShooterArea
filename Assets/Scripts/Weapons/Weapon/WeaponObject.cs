@@ -1,9 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Entities.Player;
 using Scriptable_Objects_Data.DataStores;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class WeaponObject

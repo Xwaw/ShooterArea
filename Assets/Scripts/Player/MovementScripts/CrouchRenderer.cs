@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Entities.Player.MovementScripts
+namespace Player.MovementScripts
 {
     public class CrouchRenderer : MonoBehaviour
     {
@@ -19,22 +19,15 @@ namespace Entities.Player.MovementScripts
 
         private void Update()
         {
-            if (_crouchLogic.isCrouching)
-            {
-                SetGraphicsOffset(true, spriteRenderer, spriteRendererAimWeapon);
-            }
-            else
-            {
-                SetGraphicsOffset(false, spriteRenderer, spriteRendererAimWeapon);
-            }
+            SetGraphicsOffset(_crouchLogic.isCrouching);
         }
     
-        private void SetGraphicsOffset(bool isCrouch, SpriteRenderer spritePlayer, SpriteRenderer spriteAimWeapon)
+        private void SetGraphicsOffset(bool isCrouch)
         {
             float yOffset = isCrouch ? 1.15f : 0.85f;
         
-            spritePlayer.transform.localPosition = new Vector3(0, yOffset, 0);
-            spriteAimWeapon.transform.localPosition = new Vector3(0, yOffset, 0); //AimWeapon means Sprite of weapon with Arms
+            spriteRenderer.transform.localPosition = new Vector3(0, yOffset, 0);
+            spriteRendererAimWeapon.transform.localPosition = new Vector3(0, yOffset, 0); //AimWeapon means Sprite of weapon with Arms
         }
     }
 }

@@ -1,0 +1,1488 @@
+fileFormatVersion: 2
+guid: a6e7462a4bb7ec84a9c8fb639a77a0a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1883
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.16128345, y: 0.58193505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98452d905e5db174e8dbfb726fb831aa
+      internalID: 1770930864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1883
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15964712, y: 0.58345246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2968340e5fbcd47818c37b846208a2
+      internalID: 752826319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1883
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15801084, y: 0.58193505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7669e62196c514f91fbcbcc1d1c5c0
+      internalID: -451157876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1883
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982934, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f54b642d0094164b947f9d30581bf52
+      internalID: 623074898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1883
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982934, y: 0.57283086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3670cda005f4af2478a4c6f3df5f6a4b
+      internalID: 1153486337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1883
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15146571, y: 0.5743482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37db281c70906724289d41a3a8586059
+      internalID: 5906656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1718
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819294, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfcbe7f79e47c94cbcb41288b29e989
+      internalID: -2084997151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1718
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982924, y: 0.577383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3e5ed55d671744aae84311baa60c51
+      internalID: 2074322456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1718
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982913, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c8b71f99bdb15448ddca8b395e0d09
+      internalID: -1177079255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1718
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982934, y: 0.57586557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51da923e4c6bafa4ebd4c5f73a0ea48f
+      internalID: -1715377280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1718
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982934, y: 0.57586557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c9f705eacdf241823de51d62f557c
+      internalID: 1668300475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1718
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819296, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694e264435469a14188243336aa0ab03
+      internalID: 359518446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1553
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15146556, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791777ba7f78b594b88e4e769ed910f0
+      internalID: -812849646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1553
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982924, y: 0.577383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba29657b2e4b4b341bbf3fa16a868acf
+      internalID: -550524962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1553
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819296, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d694ed00850ff89499da23e891f6457c
+      internalID: -2620627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_15
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1553
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819296, y: 0.57586557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3a4430c431494cad0590f2009543e
+      internalID: 1189444372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1553
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1449202, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f53aede0092ac4dae85d7237709222
+      internalID: -1763822052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_17
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1553
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14655697, y: 0.57890034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367fb7c5c4273ef48be1acec0c148e45
+      internalID: -1920055477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1388
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819294, y: 0.577383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f84bbbc795cc7641a15434b5ab5f1f9
+      internalID: 1010971340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1388
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15146552, y: 0.5743482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371c257133f1cf042a95f3462325d595
+      internalID: -1138620916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1388
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819296, y: 0.57586557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9d8bf572577b0408f5dd6d0acc4443
+      internalID: -448883395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1388
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15146571, y: 0.58193505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc41182408cf64419e7fc352d8f0251
+      internalID: 556256516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1388
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1449202, y: 0.57283086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bce7c9579e6b428ddc319dd2d5747
+      internalID: 229543032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_23
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1388
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1449206, y: 0.5743482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2eafef70bf52428a36e96f012d833
+      internalID: 259441779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1223
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14328401, y: 0.5743482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a22475b819024aa8eb6a123150e4f
+      internalID: -1941388236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1223
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1531018, y: 0.5713135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bba305cd183b14cbca5c53874f5134
+      internalID: 1785882933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1223
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14982913, y: 0.5743482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9cffd5a32a4c146838c56c930bfb7d
+      internalID: -1562188845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1223
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1531019, y: 0.5697961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd4ad103cca8fa4e8bea58d6173817b
+      internalID: 786015696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1223
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1492497, y: 0.5687137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d21c3997dd21641b1ae532fcedf8f5
+      internalID: -2058006550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_29
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1223
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15418996, y: 0.5687137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ba413fddb15ca4cb48e4a50326afd9
+      internalID: 1385679622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1058
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14924961, y: 0.5778757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcfd085369c4bf4e9531fae8081d6d1
+      internalID: 1160828844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1058
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14924951, y: 0.5778757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc7dbb444469b644b886e8643ea6cca
+      internalID: -1442585325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1058
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14924991, y: 0.5732947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3415985c5c8f614fbcde66567ec0273
+      internalID: -558212587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_33
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1058
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1492497, y: 0.5732947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f3bcc5a7dcf347a13390b6ed7e756
+      internalID: 171301250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1058
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1492497, y: 0.5732947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903b1169525239c4480c7ffd3b437b3c
+      internalID: -2128750921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_35
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1058
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1492497, y: 0.58245593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e88117329ba743872b87331f3f236
+      internalID: -1478796342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 893
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14428838, y: 0.57611674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d80f73d2dd8446bf29425708cef0e
+      internalID: -2086373170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 893
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14428821, y: 0.5761164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b2e94c7989fd64dada49efa84f056c
+      internalID: 1108098342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 893
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1442883, y: 0.57611674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fe995e8c98f6f4da4fa54db2027808
+      internalID: 1473667365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_39
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 893
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819695, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d4fb1a64fa33e46991660ee1ec4fa8
+      internalID: -1390602512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_40
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 893
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15210599, y: 0.57611674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee275006f7ff1bd4b90ab59326e3e98e
+      internalID: -747698028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_41
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 893
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819655, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e604708237c2974fb8daa767fb5aabe
+      internalID: 493306507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14428838, y: 0.5833663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ad9496f71c56c4fa87eb91751d956d
+      internalID: 129100390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 728
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1521062, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5660719b27e9e4298f7a29825cf3e7
+      internalID: -2070404288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 728
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819714, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ecdb2822c27b842a925803b3384985
+      internalID: 206547722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_45
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 728
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14037886, y: 0.5833663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d40904287b55a4398c38c07101de89
+      internalID: -183726928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 728
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14428791, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7006473e7fc75f4419c92ff1387efe8f
+      internalID: -811297334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_47
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 728
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14819655, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b0b0caa7a9174eb53a986e7aaa161
+      internalID: 1738667495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 563
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1364706, y: 0.5833663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1d38ed4a3ce6244b6f77f2af77abe2
+      internalID: -1608358267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_49
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 563
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1442883, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449ae027aed72614198f4e65bef4a8d6
+      internalID: -1418415680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_50
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 563
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.1442883, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03f90a199fc8b34ab8c519e0e2b24cd
+      internalID: -1574443681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_51
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 563
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15210599, y: 0.586991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838308ed4ee63444ea881f81c6689b0c
+      internalID: -209319338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_52
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 563
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14428751, y: 0.5797415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8501a3241b21e754299412d54dd537f5
+      internalID: 1256288687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_53
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 563
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.14428791, y: 0.5833663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5adc1f58fa6b1f4fb7c3741a03bc0bf
+      internalID: -1193828555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15210621, y: 0.58336645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb0a5cbfdcf7f047b26f1b03e4965e1
+      internalID: -1020777981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 398
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15992397, y: 0.58336645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2d0aa5294bd1f4eb03f2758e7bb990
+      internalID: -1660317234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 398
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15992408, y: 0.5869912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b348dea4b797e63489cb1db5f84d55e7
+      internalID: -340675021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_57
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 398
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.16383272, y: 0.58336645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87fdfcdeac098f4bb036446c19244fb
+      internalID: -31415166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_ReloadTEST_58
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 398
+        width: 153
+        height: 165
+      alignment: 9
+      pivot: {x: 0.15992367, y: 0.58336645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb65d211d05354288eda17132b5a27
+      internalID: 563348318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AK47_ReloadTEST_0: 1770930864
+      AK47_ReloadTEST_1: 752826319
+      AK47_ReloadTEST_10: 1668300475
+      AK47_ReloadTEST_11: 359518446
+      AK47_ReloadTEST_12: -812849646
+      AK47_ReloadTEST_13: -550524962
+      AK47_ReloadTEST_14: -2620627
+      AK47_ReloadTEST_15: 1189444372
+      AK47_ReloadTEST_16: -1763822052
+      AK47_ReloadTEST_17: -1920055477
+      AK47_ReloadTEST_18: 1010971340
+      AK47_ReloadTEST_19: -1138620916
+      AK47_ReloadTEST_2: -451157876
+      AK47_ReloadTEST_20: -448883395
+      AK47_ReloadTEST_21: 556256516
+      AK47_ReloadTEST_22: 229543032
+      AK47_ReloadTEST_23: 259441779
+      AK47_ReloadTEST_24: -1941388236
+      AK47_ReloadTEST_25: 1785882933
+      AK47_ReloadTEST_26: -1562188845
+      AK47_ReloadTEST_27: 786015696
+      AK47_ReloadTEST_28: -2058006550
+      AK47_ReloadTEST_29: 1385679622
+      AK47_ReloadTEST_3: 623074898
+      AK47_ReloadTEST_30: 1160828844
+      AK47_ReloadTEST_31: -1442585325
+      AK47_ReloadTEST_32: -558212587
+      AK47_ReloadTEST_33: 171301250
+      AK47_ReloadTEST_34: -2128750921
+      AK47_ReloadTEST_35: -1478796342
+      AK47_ReloadTEST_36: -2086373170
+      AK47_ReloadTEST_37: 1108098342
+      AK47_ReloadTEST_38: 1473667365
+      AK47_ReloadTEST_39: -1390602512
+      AK47_ReloadTEST_4: 1153486337
+      AK47_ReloadTEST_40: -747698028
+      AK47_ReloadTEST_41: 493306507
+      AK47_ReloadTEST_42: 129100390
+      AK47_ReloadTEST_43: -2070404288
+      AK47_ReloadTEST_44: 206547722
+      AK47_ReloadTEST_45: -183726928
+      AK47_ReloadTEST_46: -811297334
+      AK47_ReloadTEST_47: 1738667495
+      AK47_ReloadTEST_48: -1608358267
+      AK47_ReloadTEST_49: -1418415680
+      AK47_ReloadTEST_5: 5906656
+      AK47_ReloadTEST_50: -1574443681
+      AK47_ReloadTEST_51: -209319338
+      AK47_ReloadTEST_52: 1256288687
+      AK47_ReloadTEST_53: -1193828555
+      AK47_ReloadTEST_54: -1020777981
+      AK47_ReloadTEST_55: -1660317234
+      AK47_ReloadTEST_56: -340675021
+      AK47_ReloadTEST_57: -31415166
+      AK47_ReloadTEST_58: 563348318
+      AK47_ReloadTEST_59: 88709985
+      AK47_ReloadTEST_6: -2084997151
+      AK47_ReloadTEST_7: 2074322456
+      AK47_ReloadTEST_8: -1177079255
+      AK47_ReloadTEST_9: -1715377280
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,11 +1,9 @@
-using Entities;
 using Entities.Interfaces;
 using Interfaces;
 using UnityEngine;
-using Weapons.Projectiles.Base;
 using Weapons.Projectiles.BulletComponents.Base;
 
-namespace Weapons.Projectiles.Raycast
+namespace Weapons.Projectiles.BulletComponents.Raycast
 {
     public class LinePiercingProjectile : RaycastBase, IBullet
     {
@@ -17,10 +15,13 @@ namespace Weapons.Projectiles.Raycast
             RaycastHit2D[] hits = Physics2D.RaycastAll(start, finalDir, range);
             Vector3 endPos = hits.Length > 0 ? hits[^1].point : start + finalDir * range;
 
-            SetLineRenderer(LineRenderer, start, endPos);
+            SetLineRenderer(start, endPos);
 
             foreach (RaycastHit2D hit in hits)
             {
+                if (hit.collider.gameObject.CompareTag("Player") &&
+                    hit.collider.gameObject.CompareTag("Bullet")) return;
+                
                 float defence = 0;
                 if (hit.collider.TryGetComponent<IStats>(out var stats))
                 {

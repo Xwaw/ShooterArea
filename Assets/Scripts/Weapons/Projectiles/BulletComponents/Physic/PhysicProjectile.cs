@@ -2,7 +2,7 @@ using Entities;
 using Entities.Interfaces;
 using Interfaces;
 using UnityEngine;
-using Weapons.Projectiles.Base;
+using Weapons.Projectiles.BulletComponents.Base;
 
 namespace Weapons.Projectiles.Physic
 {

@@ -16,7 +16,7 @@ namespace Weapons.Projectiles.BulletComponents.Base
             
             LaunchProjectile(directionNormalized, range);
         }
-        private void LaunchProjectile(Vector3 direction ,float range)
+        private void LaunchProjectile(Vector3 direction, float range)
         {
             rb.velocity = direction * speed;
             Destroy(gameObject, range/speed);

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Weapons.Projectiles.Base
+namespace Weapons.Projectiles.BulletComponents.Base
 {
     public class PhysicProjectileBase : MonoBehaviour
     {

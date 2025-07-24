@@ -7,19 +7,17 @@ namespace Weapons.Projectiles.BulletComponents.Base
         [SerializeField] private float bulletLifeTime = 0.05f;
         [SerializeField] private float lineWidth = 0.04f;
 
-        [SerializeField] private LineRenderer lineRenderer;
+        [SerializeField] protected LineRenderer lineRenderer;
 
-        protected void SetLineRenderer(LineRenderer line, Vector3 startPos, Vector3 endPos)
+        protected void SetLineRenderer(Vector3 startPos, Vector3 endPos)
         {
-            line.positionCount = 2;
-            line.startWidth = lineWidth;
-            line.endWidth = lineWidth;
-            line.SetPosition(0, startPos);
-            line.SetPosition(1, endPos);
+            lineRenderer.positionCount = 2;
+            lineRenderer.startWidth = lineWidth;
+            lineRenderer.endWidth = lineWidth;
+            lineRenderer.SetPosition(0, startPos);
+            lineRenderer.SetPosition(1, endPos);
         
             Destroy(gameObject, bulletLifeTime);
         }
-
-        protected LineRenderer LineRenderer => lineRenderer;
     }
 }

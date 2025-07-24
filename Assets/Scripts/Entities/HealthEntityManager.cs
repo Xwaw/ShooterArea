@@ -10,30 +10,30 @@ namespace Entities
         public event Action OnHealthChanged;
 
         [SerializeField] private int maxHealth = 100;
-        private float currentHealth;
-        
-        public float CurrentHealth => currentHealth;
+
+        public float CurrentHealth { get; private set; }
+
         public int MaxHealth => maxHealth;
         void Awake()
         {
-            currentHealth = maxHealth;
+            CurrentHealth = maxHealth;
         }
 
         public void TakeDamage(float damage)
         {
-            currentHealth -= damage;
-            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            CurrentHealth -= damage;
+            CurrentHealth = Mathf.Clamp(CurrentHealth, 0, maxHealth);
             
             OnHealthChanged?.Invoke();
     
-            if (currentHealth <= 0)
+            if (CurrentHealth <= 0)
                 Die();
         }
 
         public void Heal(float heal)
         {
-            currentHealth += heal;
-            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            CurrentHealth += heal;
+            CurrentHealth = Mathf.Clamp(CurrentHealth, 0, maxHealth);
             
             OnHealthChanged?.Invoke();
         }

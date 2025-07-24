@@ -1,7 +1,6 @@
 using Entities.Interfaces;
 using Interfaces;
 using UnityEngine;
-using Weapons.Projectiles.Base;
 using Weapons.Projectiles.BulletComponents.Base;
 
 namespace Weapons.Projectiles.BulletComponents.Raycast
@@ -16,7 +15,7 @@ namespace Weapons.Projectiles.BulletComponents.Raycast
             RaycastHit2D hit = Physics2D.Raycast(start, finalDir, range);
             Vector3 endPos = hit.collider ? hit.point : start + finalDir * range;
 
-            SetLineRenderer(LineRenderer, start, endPos);
+            SetLineRenderer(start, endPos);
 
             if (hit.collider != null)
             {
