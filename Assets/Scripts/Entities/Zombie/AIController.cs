@@ -22,6 +22,7 @@ namespace Entities.Zombie
         public AttackComponent Attack { get; private set; }
         
         public IStats Stats { get; private set; }
+        public IHealth Health { get; private set; }
 
         private void Awake()
         {
@@ -30,6 +31,7 @@ namespace Entities.Zombie
             Attack = GetComponent<AttackComponent>();
             
             Stats = GetComponentInParent<IStats>();
+            Health = GetComponentInParent<IHealth>();
         }
 
         private void Start()
@@ -53,5 +55,4 @@ namespace Entities.Zombie
 
         public IState GetCurrentState() => _currentState;
     }
-
 }

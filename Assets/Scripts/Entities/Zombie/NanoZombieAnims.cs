@@ -1,8 +1,5 @@
-using System;
-using Entities.Zombie.States;
+using Entities.Interfaces;
 using Interfaces;
-using NUnit.Framework.Constraints;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Entities.Zombie
@@ -14,6 +11,10 @@ namespace Entities.Zombie
         private SpriteRenderer _spriteRenderer;
         
         private bool _isFacingRight = true;
+
+        public static bool IsAttackingFrame;
+        public static bool IsAnimEnd;
+        
         private void Awake()
         {
             _animator = GetComponent<Animator>();
@@ -28,12 +29,15 @@ namespace Entities.Zombie
         }
         public void Update()
         {
-            switch (IsValueFacingRight())
+            if (aiController.Follow.HasTarget)
             {
-                case < 0 when _isFacingRight:
-                case > 0 when !_isFacingRight:
-                    Flip();
-                    break;
+                switch (IsValueFacingRight())
+                {
+                    case < 0 when _isFacingRight:
+                    case > 0 when !_isFacingRight:
+                        Flip();
+                        break;
+                }
             }
 
             var currentState = aiController.GetCurrentState();
@@ -57,6 +61,9 @@ namespace Entities.Zombie
             scale.x *= -1;
             _spriteRenderer.transform.localScale = scale;
         }
+        
+        public void SetIsAttackingFrame() => IsAttackingFrame = true;
+        public void SetIsAnimEnd() => IsAnimEnd = true;
     }
     
     public enum ZombieAnimState

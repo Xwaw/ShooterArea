@@ -1,3 +1,4 @@
+using Entities;
 using Entities.Interfaces;
 using Interfaces;
 using UnityEngine;
@@ -20,11 +21,11 @@ namespace Weapons.Projectiles.BulletComponents.Raycast
             if (hit.collider != null)
             {
                 float defence = 0;
-                if (hit.collider.TryGetComponent<IStats>(out var stats))
+                if (hit.collider.transform.root.TryGetComponent<IStats>(out var stats))
                 {
                     defence = stats.Defence;
                 }
-                if (hit.collider.TryGetComponent<IHealth>(out var health))
+                if (hit.collider.transform.root.TryGetComponent<IHealth>(out var health))
                 {
                     health.TakeDamage(defence > damage ? 1 : damage - defence);
                 }

@@ -1,29 +1,33 @@
 ﻿using System;
 using Entities.Interfaces;
+using UnityEditor;
 using UnityEngine;
 
 namespace Entities.Zombie.Components
 {
     public class AttackComponent : MonoBehaviour
     {
-        public float attackRange = 1f;
-        public float damage = 10f;
-        public float cooldown = 1f;
-
-        private float _timer;
+        [SerializeField] private Transform attackPoint;
+        public float attackRange = 1;
 
         public void TryAttack(AIController ai)
         {
-            _timer += Time.deltaTime;
-            if (_timer < cooldown) return;
+            if(attackPoint == null) return;
+            
+            var hittedTarget = Physics2D.OverlapCircle(attackPoint.transform.position, attackRange, LayerMask.GetMask("Player"));
 
-            float dist = Vector2.Distance(transform.position, ai.Follow.target.position);
-            if (dist > attackRange) return;
-
-            if (ai.Follow.target.TryGetComponent<IHealth>(out var health))
-                health.TakeDamage(damage);
-
-            _timer = 0;
+            if (hittedTarget != null)
+            {
+                if (!ai.Follow.CurrentTarget.TryGetComponent<IHealth>(out var health)) return;
+                health.TakeDamage(ai.Stats.Damage);
+            }
         }
+        
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackPoint.transform.position, attackRange);
+        }
+
     }
 }

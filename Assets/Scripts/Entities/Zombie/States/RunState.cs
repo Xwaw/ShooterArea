@@ -17,7 +17,6 @@ namespace Entities.Zombie.States
         public void Update()
         {
             _ai.Movement.Move(_ai.Follow.GetDirection(), _speed);
-            _ai.Attack.TryAttack(_ai);
         }
 
         public void Exit() => Debug.Log("EXIT RUN");

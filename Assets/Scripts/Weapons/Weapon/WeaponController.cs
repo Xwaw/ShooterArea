@@ -16,6 +16,8 @@ namespace Weapons.Weapon
         public bool CanShootThisFrame { get; private set; }
 
         private float _fireCooldownTimer = 0f;
+        
+        [SerializeField] private LayerMask[] layersToCollide;
 
         void Awake()
         {
